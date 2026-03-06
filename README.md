@@ -8,7 +8,7 @@ The original paper found that housing value economic inequality — measured by 
 
 ## Key findings
 
-- The central finding replicates: a one standard deviation increase in housing value inequality is associated with a **15.3% increase** in expected stops (IRR = 1.153, p < 0.001), compared to 33% in the original paper
+- The central finding replicates: a one standard deviation increase in economic inequality is associated with a **15.3% increase** in expected stops (IRR = 1.153, p < 0.001), compared to 33% in the original paper
 - Spatial autocorrelation in OLS residuals (Moran's I = 0.219, p < 0.0001) is eliminated by the Spatial Durbin Model (Moran's I = −0.005, p = 0.311)
 - Results are robust to the exclusion of Westminster and to a rate-based outcome measure
 - The inequality effect is driven entirely by **PACE searches** (IRR = 1.154). S60 searches show no association with neighbourhood economic inequality, consistent with prior research suggesting S60 spatial concentration is driven by the racial and ethnic composition of targeted areas rather than economic characteristics
