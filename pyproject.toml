@@ -1,0 +1,23 @@
+[project]
+name = "stop_and_search_london"
+version = "0.1.0"
+description = "Replication and update of Suss & Oliveira (2023) stop and search spatial analysis"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "numpy",
+    "geopandas",
+    "pyogrio",
+    "shapely",
+    "libpysal",
+    "esda",
+    "spreg",
+    "statsmodels",
+    "matplotlib",
+    "contextily",
+    "mapclassify",
+    "jupyter",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

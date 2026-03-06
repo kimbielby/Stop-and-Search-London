@@ -1,1 +1,21 @@
-/.idea/
+# Data
+/data/
+/outputs/
+
+# PyCharm
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+*.env
+
+# Ignore .gitkeep files
+!**/.gitkeep
