@@ -1,6 +1,10 @@
-# Data
-/data/
-/outputs/
+# Data - ignore contents but keep structure
+/data/raw/*
+/data/interim/*
+
+# Outputs - ignore contents but keep structure
+/outputs/figures/*
+/outputs/tables/*
 
 # PyCharm
 .idea/
@@ -17,5 +21,7 @@ __pycache__/
 .env
 *.env
 
-# Ignore .gitkeep files
+# Exceptions
 !**/.gitkeep
+!/data/raw/land_registry/
+!/data/raw/land_registry/land_reg_cols.txt

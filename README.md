@@ -90,8 +90,8 @@ Stop_and_Search_London/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/Stop_and_Search_London.git
-cd Stop_and_Search_London
+git clone https://github.com/kimbielby/Stop-and-Search-London.git
+cd Stop-and-Search-London
 ```
 
 ### 2. Create and activate the conda environment
@@ -112,13 +112,13 @@ This reads all dependencies from `pyproject.toml` and installs them.
 ### 4. Add the project root to your path
 
 ```bash
-conda env config vars set PYTHONPATH=/path/to/Stop_and_Search_London
+conda env config vars set PYTHONPATH=/path/to/Stop-and-Search-London
 conda activate stopsearch
 ```
 
 ### 5. Download raw data
 
-Follow the instructions in `pipeline/01_download_raw.py` for each data source. For Land Registry files, run `notebooks/utils/get_land_reg_data.ipynb` after downloading to add column headers.
+Follow the instructions in `pipeline/01_download_raw.py` for each data source. For Land Registry files, run `notebooks/utils_notebooks/get_land_reg_data.ipynb` after downloading to add column headers.
 
 ---
 

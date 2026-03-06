@@ -1,0 +1,16 @@
+transaction_unique_identifier
+price
+date_of_transfer
+postcode
+property_type
+old_new
+duration
+paon
+saon
+street
+locality
+town_city
+district
+county
+ppd_cat_type
+record_status
